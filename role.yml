@@ -1,0 +1,7 @@
+---
+- name: wp-cli
+  hosts: all
+  user: root
+  become: true
+  roles:
+  - wp-cli
